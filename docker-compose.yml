@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15
+    container_name: umd-scheduler-db
+    environment:
+      POSTGRES_USER: umd_scheduler
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: umd_scheduler
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - umd-network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: umd-scheduler-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - umd-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: umd-scheduler-backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://umd_scheduler:password@postgres:5432/umd_scheduler
+      REDIS_URL: redis://redis:6379
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - umd-network
+    volumes:
+      - ./backend:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: umd-scheduler-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000/api/v1
+    depends_on:
+      - backend
+    networks:
+      - umd-network
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: npm run dev
+
+volumes:
+  postgres_data:
+
+networks:
+  umd-network:
+    driver: bridge
+
