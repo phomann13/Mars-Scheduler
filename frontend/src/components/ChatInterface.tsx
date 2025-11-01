@@ -33,7 +33,7 @@ export default function ChatInterface({
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: 'assistant',
-      content: 'Hi! I\'m your UMD scheduling assistant. How can I help you plan your academic journey today?',
+      content: 'Hi! I\'m the Mars Scheduler. How can I help you plan your academic journey today?',
       timestamp: new Date().toISOString(),
     },
   ]);

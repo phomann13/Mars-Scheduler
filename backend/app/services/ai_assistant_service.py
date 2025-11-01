@@ -2,7 +2,7 @@
 AI Assistant service using OpenAI and RAG for course recommendations.
 """
 
-import openai
+from openai import AsyncOpenAI
 from typing import List, Dict, Any, Optional
 from app.core.config import settings
 
@@ -11,7 +11,7 @@ class AIAssistantService:
     """Service for AI-powered scheduling assistance with RAG."""
     
     def __init__(self):
-        openai.api_key = settings.OPENAI_API_KEY
+        self.client = AsyncOpenAI(api_key=settings.OPENAI_API_KEY)
         self.model = settings.OPENAI_MODEL
         self.systemPrompt = """You are an intelligent academic scheduling assistant for University of Maryland students. 
 You help students plan their academic careers by:
@@ -56,7 +56,7 @@ Use the provided data to make informed recommendations."""
             # Add current user message
             messages.append({"role": "user", "content": userMessage})
             
-            response = await openai.ChatCompletion.acreate(
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=messages,
                 temperature=0.7,
@@ -92,7 +92,7 @@ Student message: "{userMessage}"
 
 Respond in JSON format."""
             
-            response = await openai.ChatCompletion.acreate(
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": "You are a parameter extraction assistant. Always respond with valid JSON."},
@@ -142,7 +142,7 @@ Constraints: {constraints}
 
 Provide a brief, friendly explanation of why this schedule works well."""
             
-            response = await openai.ChatCompletion.acreate(
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": self.systemPrompt},

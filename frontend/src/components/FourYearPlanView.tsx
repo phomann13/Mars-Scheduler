@@ -13,13 +13,15 @@ import {
   Card,
   CardContent,
   Chip,
+} from '@mui/material';
+import {
   Timeline,
   TimelineItem,
   TimelineSeparator,
   TimelineConnector,
   TimelineContent,
   TimelineDot,
-} from '@mui/material';
+} from '@mui/lab';
 import SchoolIcon from '@mui/icons-material/School';
 import type { FourYearPlan, SemesterPlan } from '@/types';
 

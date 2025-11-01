@@ -12,7 +12,7 @@ import theme from './theme';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'UMD AI Scheduling Assistant',
+  title: 'Mars Scheduler',
   description: 'AI-powered academic scheduling assistant for University of Maryland students',
 };
 

@@ -49,7 +49,7 @@ export default function Home() {
         <Toolbar>
           <SchoolIcon sx={{ mr: 2 }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            UMD AI Scheduling Assistant
+            Mars Scheduler
           </Typography>
         </Toolbar>
       </AppBar>
@@ -84,7 +84,7 @@ export default function Home() {
                 {activeTab === 0 && (
                   <Box>
                     <Typography variant="h5" gutterBottom>
-                      Welcome to UMD AI Scheduling Assistant
+                      Welcome to Mars Scheduler
                     </Typography>
                     <Typography variant="body1" paragraph>
                       Get started by asking me questions about:
@@ -134,7 +134,7 @@ export default function Home() {
       >
         <Container maxWidth="xl">
           <Typography variant="body2" color="text.secondary" align="center">
-            UMD AI Scheduling Assistant - Helping Terps plan their academic journey
+            Mars Scheduler - Helping Terps plan their academic journey
           </Typography>
         </Container>
       </Box>
