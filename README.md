@@ -4,7 +4,7 @@ An AI-powered web application that helps University of Maryland students plan th
 
 ## Features
 
-### Phase 1 - MVP (Implemented)
+### Phase 1 - MVP (✅ Implemented)
 
 1. **Conversational AI Scheduling Assistant**
    - Natural language chat interface
@@ -31,6 +31,28 @@ An AI-powered web application that helps University of Maryland students plan th
    - Professor quality prioritization
    - Workload optimization
    - Back-to-back class avoidance
+
+### Phase 2 - Extended Features (✅ Implemented)
+
+1. **Interactive Schedule Visualization**
+   - Visual weekly calendar with drag-and-drop UI
+   - Color-coded course blocks
+   - Hover interactions for section details
+   - Walking time warnings display
+
+2. **Campus Building & Walking Time Integration**
+   - OpenStreetMap integration for building locations
+   - Real-time walking time calculations
+   - Schedule validation based on walking feasibility
+   - 30+ pre-cached UMD building coordinates
+
+4. **Course & Career Insights (RAG)**
+   - Semantic course search using Pinecone vector store
+   - Career path-based recommendations
+   - Similar course discovery
+   - AI-enhanced responses with relevant context
+
+**See `PHASE2_IMPLEMENTATION.md` for detailed documentation.**
 
 ## Architecture
 

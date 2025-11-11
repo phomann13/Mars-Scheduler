@@ -5,7 +5,7 @@ Main FastAPI application for UMD AI Scheduling Assistant.
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
-from app.api.routes import chat, schedules, plans, users, courses
+from app.api.routes import chat, schedules, plans, users, courses, campus, insights
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -52,6 +52,18 @@ app.include_router(
     tags=["courses"]
 )
 
+app.include_router(
+    campus.router,
+    prefix=f"{settings.API_V1_STR}/campus",
+    tags=["campus"]
+)
+
+app.include_router(
+    insights.router,
+    prefix=f"{settings.API_V1_STR}/insights",
+    tags=["insights"]
+)
+
 
 @app.get("/")
 async def readRoot():
@@ -71,5 +83,5 @@ async def healthCheck():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
 

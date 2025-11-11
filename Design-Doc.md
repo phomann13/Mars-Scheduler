@@ -257,6 +257,37 @@ The **UMD AI Scheduling Assistant** is a web-based application that helps Univer
 - `PUT /api/v1/users/{userId}` - Update user
 - `GET /api/v1/users/{userId}/profile` - Get complete profile
 
+### ✅ Phase 2 Completed Features
+
+**Newly Implemented:**
+- ✅ Interactive schedule visualization component with drag-and-drop UI
+- ✅ Campus building database with 30+ UMD buildings
+- ✅ OpenStreetMap integration for building coordinates
+- ✅ Walking time calculation service using Haversine formula
+- ✅ Schedule validation with walking time constraints
+- ✅ Pinecone vector store service for RAG
+- ✅ Semantic course search with embeddings
+- ✅ Career-based course recommendations
+- ✅ RAG-enhanced AI assistant responses
+- ✅ Campus map visualization component
+- ✅ Walking time warnings in schedule view
+- ✅ New API endpoints for campus and insights data
+
+**Services Added:**
+- `campus_map_service.py` - OpenStreetMap and walking time calculations
+- `vector_store_service.py` - Pinecone integration for semantic search
+- `umd_buildings.py` - Pre-cached campus building data
+
+**Frontend Components:**
+- `InteractiveScheduleView.tsx` - Visual calendar with interactions
+- `CampusMapView.tsx` - Building locations and walking times
+
+**API Routes:**
+- `/api/v1/campus/*` - Campus buildings and map data
+- `/api/v1/insights/*` - RAG-powered course insights
+
+See `PHASE2_IMPLEMENTATION.md` for detailed usage guide.
+
 ### 🔄 Next Steps
 
 1. **Database Setup**
@@ -264,22 +295,18 @@ The **UMD AI Scheduling Assistant** is a web-based application that helps Univer
    - Run migrations
    - Seed with initial curriculum data
 
-2. **Vector Store Integration**
-   - Set up Pinecone or Chroma
-   - Create embeddings for course descriptions
-   - Implement semantic search
-
-3. **Data Population**
+2. **Data Population**
    - Scrape/import UMD curriculum data
+   - Index courses into Pinecone vector store
    - Cache professor ratings
    - Import current semester course data
 
-4. **Testing**
-   - Unit tests for services
+3. **Testing**
+   - Unit tests for new services
    - Integration tests for API endpoints
    - End-to-end testing
 
-5. **Deployment**
+4. **Deployment**
    - Containerize with Docker
    - Set up CI/CD pipeline
    - Deploy to cloud platform (AWS/Azure/GCP)

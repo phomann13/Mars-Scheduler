@@ -13,6 +13,8 @@ export interface UserPreferences {
   preferredTopics?: string[];
   maxCreditsPerSemester: number;
   minCreditsPerSemester: number;
+  validateWalkingTime?: boolean;
+  maxWalkingMinutes?: number;
 }
 
 export interface User {
@@ -68,15 +70,27 @@ export interface Section {
   professor?: Professor;
 }
 
+export interface WalkingTimeWarning {
+  type: 'insufficient_time' | 'long_walk';
+  class1: string;
+  class2: string;
+  building1: string;
+  building2: string;
+  timeGap?: number;
+  walkingTime: number;
+  message: string;
+}
+
 export interface Schedule {
   id: number;
   userId: number;
   semester: string;
   year: number;
-  sections: number[];
+  sections: Section[];
   score?: number;
   isActive: boolean;
   createdAt: string;
+  walkingTimeWarnings?: WalkingTimeWarning[];
 }
 
 export interface SemesterPlan {
@@ -106,5 +120,24 @@ export interface ChatResponse {
   response: string;
   suggestions?: string[];
   data?: any;
+}
+
+export interface Building {
+  code: string;
+  fullName: string;
+  latitude: number;
+  longitude: number;
+  departments?: string[];
+}
+
+export interface CourseInsight {
+  courseCode: string;
+  courseName: string;
+  department: string;
+  description: string;
+  credits?: number;
+  avgGPA?: number;
+  avgRating?: number;
+  similarityScore?: number;
 }
 

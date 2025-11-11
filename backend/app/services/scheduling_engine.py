@@ -5,6 +5,7 @@ Scheduling engine for generating optimized course schedules.
 from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime, time
 from itertools import combinations
+from app.services.campus_map_service import campusMapService
 
 
 class SchedulingEngine:
@@ -47,10 +48,23 @@ class SchedulingEngine:
         # Generate all possible combinations
         for sectionCombo in self._generateCombinations(sectionLists):
             if self._hasValidTimeConflicts(sectionCombo):
-                schedule = {
-                    "sections": sectionCombo,
-                    "score": self._calculateScheduleScore(sectionCombo, preferences)
-                }
+                # Validate walking times if enabled
+                if preferences.get("validateWalkingTime", True):
+                    walkingValidation = await self._validateWalkingTimes(sectionCombo)
+                    if not walkingValidation["isValid"]:
+                        continue
+                    
+                    schedule = {
+                        "sections": sectionCombo,
+                        "score": self._calculateScheduleScore(sectionCombo, preferences),
+                        "walkingTimeWarnings": walkingValidation["warnings"]
+                    }
+                else:
+                    schedule = {
+                        "sections": sectionCombo,
+                        "score": self._calculateScheduleScore(sectionCombo, preferences)
+                    }
+                
                 allSchedules.append(schedule)
         
         # Sort by score and return top schedules
@@ -322,6 +336,18 @@ class SchedulingEngine:
                         score -= 0.5
         
         return score
+    
+    async def _validateWalkingTimes(self, sections: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        Validate that walking times between consecutive classes are feasible.
+        
+        Args:
+            sections: List of sections in schedule
+            
+        Returns:
+            Validation results with warnings
+        """
+        return await campusMapService.validateScheduleWalkingTimes(sections)
 
 
 schedulingEngine = SchedulingEngine()

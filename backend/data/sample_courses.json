@@ -1,0 +1,35 @@
+{
+  "courses": [
+    {
+      "courseCode": "CMSC131",
+      "courseName": "Object-Oriented Programming I",
+      "department": "Computer Science",
+      "description": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Requires no prior programming background. Uses Java programming language.",
+      "credits": 4,
+      "level": "100",
+      "prerequisites": [],
+      "topics": ["Java", "OOP", "Programming Fundamentals"]
+    },
+    {
+      "courseCode": "CMSC132",
+      "courseName": "Object-Oriented Programming II",
+      "department": "Computer Science",
+      "description": "Introduction to use of computers to solve problems using software development in Java. Design, build, test, and debug medium-size software systems.",
+      "credits": 4,
+      "level": "100",
+      "prerequisites": ["CMSC131"],
+      "topics": ["Java", "Data Structures", "Software Development"]
+    },
+    {
+      "courseCode": "CMSC216",
+      "courseName": "Introduction to Computer Systems",
+      "department": "Computer Science",
+      "description": "Introduction to computer systems from programmer's perspective. Assembly language programming, memory management, file I/O, system-level programming.",
+      "credits": 4,
+      "level": "200",
+      "prerequisites": ["CMSC132"],
+      "topics": ["C Programming", "Assembly", "Systems Programming"]
+    }
+  ]
+}
+
