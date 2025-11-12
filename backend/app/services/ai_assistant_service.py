@@ -50,7 +50,7 @@ Use the provided data to make informed recommendations."""
             if vectorStoreService.pineconeEnabled:
                 relevantCourses = await vectorStoreService.searchSimilarCourses(
                     query=userMessage,
-                    topK=5
+                    topK=10
                 )
                 
                 if relevantCourses:
@@ -71,14 +71,17 @@ Use the provided data to make informed recommendations."""
                 # Add special instructions if schedule/plan was generated
                 intent = contextData.get("intent", {})
                 if intent.get("scheduleGenerated"):
+                    scheduleMessage = "A schedule has been successfully generated and will be displayed to the user. Let them know the schedule is ready to view in the Schedule tab."
+                    if intent.get("usingSampleData"):
+                        scheduleMessage += " Note: Using sample schedule data as the Venus API requires UMD authentication."
                     messages.append({
                         "role": "system",
-                        "content": "A schedule has been successfully generated and will be displayed to the user. Let them know the schedule is ready to view in the Schedule tab."
+                        "content": scheduleMessage
                     })
                 elif intent.get("planGenerated"):
                     messages.append({
                         "role": "system",
-                        "content": "A four-year plan has been successfully generated and will be displayed to the user. Let them know the plan is ready to view in the 4-Year Plan tab."
+                        "content": 'A four-year plan has been successfully generated and will be displayed to the user. You MUST respond with exactly: "I have loaded an example four year plan for you, let me know if you have other questions"'
                     })
             
             # Add current user message
@@ -136,20 +139,51 @@ IMPORTANT:
 - Include null for missing optional fields
 - Only include fields that are relevant to the request"""
             
-            response = await self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "You are a parameter extraction assistant. Always respond with valid JSON. Extract information accurately from the user's message."},
+            # Check if model supports JSON mode
+            # Only newer models support json_object response format:
+            # - gpt-4-turbo-preview, gpt-4-1106-preview and later
+            # - gpt-3.5-turbo-1106 and later
+            supportsJsonMode = (
+                "gpt-4-turbo" in self.model.lower() or
+                "gpt-4o" in self.model.lower() or
+                "gpt-3.5-turbo-1106" in self.model.lower() or
+                "1106" in self.model or
+                "0125" in self.model
+            )
+            
+            requestParams = {
+                "model": self.model,
+                "messages": [
+                    {"role": "system", "content": "You are a parameter extraction assistant. Always respond with valid JSON ONLY. Do not include any text before or after the JSON object. Extract information accurately from the user's message."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.1,
-                max_tokens=800,
-                response_format={"type": "json_object"}
-            )
+                "temperature": 0.1,
+                "max_tokens": 800
+            }
+            
+            # Only add response_format if model supports it
+            if supportsJsonMode:
+                requestParams["response_format"] = {"type": "json_object"}
+            
+            response = await self.client.chat.completions.create(**requestParams)
             
             # Parse JSON response
             import json
-            intentData = json.loads(response.choices[0].message.content)
+            import re
+            
+            responseContent = response.choices[0].message.content
+            
+            # Try to extract JSON if it's wrapped in markdown code blocks
+            jsonMatch = re.search(r'```json\s*(\{.*?\})\s*```', responseContent, re.DOTALL)
+            if jsonMatch:
+                responseContent = jsonMatch.group(1)
+            else:
+                # Try to find JSON object without code blocks
+                jsonMatch = re.search(r'\{.*\}', responseContent, re.DOTALL)
+                if jsonMatch:
+                    responseContent = jsonMatch.group(0)
+            
+            intentData = json.loads(responseContent)
             
             # Normalize course codes if present
             if "courses" in intentData and intentData["courses"]:
@@ -158,10 +192,15 @@ IMPORTANT:
                     for course in intentData["courses"]
                 ]
             
+            print(f"✅ Extracted intent: {intentData.get('intent')}")
+            print(f"📚 Extracted courses: {intentData.get('courses', [])}")
+            
             return intentData
             
         except Exception as error:
-            print(f"Error extracting intent: {error}")
+            print(f"❌ Error extracting intent: {error}")
+            print(f"   Model: {self.model}")
+            print(f"   Defaulting to general_question")
             return {"intent": "general_question"}
     
     async def generateScheduleRecommendation(self, 

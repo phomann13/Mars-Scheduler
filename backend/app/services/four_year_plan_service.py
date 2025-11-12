@@ -34,6 +34,10 @@ class FourYearPlanService:
         Returns:
             Four-year plan dictionary
         """
+        # For Computer Science major, return the example four-year plan
+        if major and "computer science" in major.lower():
+            return self._getComputerScienceFourYearPlan()
+        
         # Get curriculum requirements
         majorRequirements = self._getMajorRequirements(major)
         minorRequirements = self._getMinorRequirements(minor) if minor else []
@@ -216,6 +220,92 @@ class FourYearPlanService:
                 available.append(course)
         
         return available
+    
+    def _getComputerScienceFourYearPlan(self) -> Dict[str, Any]:
+        """
+        Return the Computer Science four-year academic plan with General Education.
+        
+        Returns:
+            Dictionary containing the complete four-year plan structure
+        """
+        import datetime
+        
+        # Build semester plans in a flat structure
+        semesterPlans = []
+        currentYear = 2025
+        
+        # Year 1
+        semesterPlans.extend([
+            {
+                "semester": "Fall",
+                "year": currentYear,
+                "courses": ["CMSC131", "MATH140 (FSMA, FSAR)", "ENGL101 (FSAW)", "Oral Comm (FSOC)", "CMSC100"],
+                "totalCredits": 15
+            },
+            {
+                "semester": "Spring",
+                "year": currentYear + 1,
+                "courses": ["CMSC132", "MATH141", "Natural Science w/Lab (DSNL)", "History & Social Sciences (DSHS)"],
+                "totalCredits": 15
+            }
+        ])
+        
+        # Year 2
+        semesterPlans.extend([
+            {
+                "semester": "Fall",
+                "year": currentYear + 1,
+                "courses": ["CMSC216", "CMSC250", "MATHXXX", "Scholarship in Practice (DSSP)"],
+                "totalCredits": 15
+            },
+            {
+                "semester": "Spring",
+                "year": currentYear + 2,
+                "courses": ["CMSC330", "CMSC351", "STAT4XX", "Natural Science (DSNS)", "Humanities (DSHU)"],
+                "totalCredits": 15
+            }
+        ])
+        
+        # Year 3
+        semesterPlans.extend([
+            {
+                "semester": "Fall",
+                "year": currentYear + 2,
+                "courses": ["CMSC4XX", "CMSC4XX", "History & Social Sciences (DSHS)", "Humanities (DSHU)", "Elective"],
+                "totalCredits": 15
+            },
+            {
+                "semester": "Spring",
+                "year": currentYear + 3,
+                "courses": ["CMSC4XX", "CMSC4XX", "ENGL39X (FSPW)", "UL Concentration", "UL Concentration"],
+                "totalCredits": 15
+            }
+        ])
+        
+        # Year 4
+        semesterPlans.extend([
+            {
+                "semester": "Fall",
+                "year": currentYear + 3,
+                "courses": ["CMSC4XX", "CMSC4XX", "UL Concentration", "Scholarship in Practice (DSSP)", "Elective"],
+                "totalCredits": 15
+            },
+            {
+                "semester": "Spring",
+                "year": currentYear + 4,
+                "courses": ["CMSC4XX", "UL Concentration", "Elective", "Elective", "Elective"],
+                "totalCredits": 15
+            }
+        ])
+        
+        return {
+            "id": 1,
+            "userId": 1,
+            "planName": "Computer Science Four Year Academic Plan",
+            "semesterPlans": semesterPlans,
+            "isActive": True,
+            "createdAt": datetime.datetime.now().isoformat()
+        }
     
     def _loadCurriculumData(self) -> Dict[str, Any]:
         """Load curriculum data for different majors."""

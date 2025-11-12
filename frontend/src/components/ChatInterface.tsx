@@ -18,6 +18,7 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import type { ChatMessage, ChatResponse } from '@/types';
 import { chatApi } from '@/services/api';
+import MarkdownMessage from './MarkdownMessage';
 
 interface ChatInterfaceProps {
   userId: string;
@@ -162,7 +163,10 @@ export default function ChatInterface({
                 borderRadius: 2,
               }}
             >
-              <Typography variant="body1">{message.content}</Typography>
+              <MarkdownMessage 
+                content={message.content} 
+                isUser={message.role === 'user'}
+              />
             </Paper>
           </Box>
         ))}

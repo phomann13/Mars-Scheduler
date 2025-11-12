@@ -1,0 +1,5970 @@
+[
+  {
+    "courseCode": "CMSC100",
+    "courseName": "Bits and Bytes of Computer and Information Sciences",
+    "department": "CMSC",
+    "credits": 1,
+    "gradingMethod": "Regular",
+    "description": "Students are introduced to the fields (and disciplines) of computer science and information science within a small classroom setting. They will learn to make a successful transition from high school to the university, while exploring study skills, student success plans and research opportunities.",
+    "restrictions": "Restriction:For first time freshmen and first time transfer students; or permission of CMNS-Computer Science department.Cross-listed with:INST101.Credit only granted for:CMSC100 or INST101.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC100",
+        "instructor": "TBA",
+        "totalSeats": 35,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "F",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC115",
+    "courseName": "Gender, Race and Computing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Race and gender have shaped computing from its earliest histories to contemporary debates over bias in search algorithms, surveillance, and AI. As computational processes shape ever more dimensions of everyday life from the personal to the global scale, understanding how they operate and how power operates within them grows ever more important. Combating racism and sexism is not as simple as ensuring the pool of programmers and engineers is more diverse; structures of power are embedded in digital technologies as they are in all aspects of our society, and we must learn to perceive their operation if we hope to transform them. We will examine how racism and sexism operate in the field of computer science and in everyday uses of digital technologies, while studying how feminist and racial justice movements have created alternative approaches. This class is for anyone who wishes to better understand the relationships between digital technology, structural power, and social justice.",
+    "restrictions": "Restriction:Must not have taken CMSC216 or higher.Cross-listed with:WGSS115.Credit only granted for:WGSS115 or CMSC115.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC115",
+        "instructor": "Alexis Lothian",
+        "totalSeats": 2,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "TWS",
+            "room": "0320"
+          },
+          {
+            "days": "F",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "TWS",
+            "room": "1313"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC115",
+        "instructor": "Alexis Lothian",
+        "totalSeats": 2,
+        "openSeats": 1,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "TWS",
+            "room": "0320"
+          },
+          {
+            "days": "F",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "TWS",
+            "room": "1313"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0103",
+        "courseCode": "CMSC115",
+        "instructor": "Alexis Lothian",
+        "totalSeats": 2,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "TWS",
+            "room": "0320"
+          },
+          {
+            "days": "F",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "TWS",
+            "room": "1321"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0104",
+        "courseCode": "CMSC115",
+        "instructor": "Alexis Lothian",
+        "totalSeats": 2,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "TWS",
+            "room": "0320"
+          },
+          {
+            "days": "F",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "TWS",
+            "room": "1321"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 4
+  },
+  {
+    "courseCode": "CMSC122",
+    "courseName": "Introduction to Computer Programming via the Web",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduction to computer programming in the context of developing full featured dynamic web sites. Uses a problem solving approach to teach basics of program design and implementation using JavaScript; relates these skills to creation of dynamic web sites; then explores both the potential and limits of web-based information sources for use in research. Intended to help relate a student's major to these emerging technologies.",
+    "restrictions": "Restriction:Must not have completed any courses from CMSC131-499 course range; and must not be concurrently enrolled in CMSC131.Credit only granted for:CMSC106, or CMSC122.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC122",
+        "instructor": "Aaron Kyei-Asare",
+        "totalSeats": 8,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC125",
+    "courseName": "Introduction to Computing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduces you to the computing field as a whole. You will gain skills used across the spectrum of computing majors and learn about the great variety of routes into the various areas of study and employment in technological fields.",
+    "restrictions": "Prerequisite:Must have completed or be concurrently enrolled in MATH115 or higher.Restriction:Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126.Credit only granted for:IMDM127 or CMSC125.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC125",
+        "instructor": "Elias Gonzalez",
+        "totalSeats": 4,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "1:15pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC131",
+    "courseName": "Object-Oriented Programming I",
+    "department": "CMSC",
+    "credits": 4,
+    "gradingMethod": "Regular",
+    "description": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC131",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "MMH",
+            "room": "1400"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:20am",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC131",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "MMH",
+            "room": "1400"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "8:00am",
+            "endTime": "8:50am",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0103",
+        "courseCode": "CMSC131",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "MMH",
+            "room": "1400"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:20pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0104",
+        "courseCode": "CMSC131",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "MMH",
+            "room": "1400"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0105",
+        "courseCode": "CMSC131",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "MMH",
+            "room": "1400"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC131",
+        "instructor": "Elias Gonzalez",
+        "totalSeats": 29,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0202",
+        "courseCode": "CMSC131",
+        "instructor": "Elias Gonzalez",
+        "totalSeats": 29,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:20am",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0203",
+        "courseCode": "CMSC131",
+        "instructor": "Elias Gonzalez",
+        "totalSeats": 29,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0204",
+        "courseCode": "CMSC131",
+        "instructor": "Elias Gonzalez",
+        "totalSeats": 29,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0205",
+        "courseCode": "CMSC131",
+        "instructor": "Elias Gonzalez",
+        "totalSeats": 29,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "8:00am",
+            "endTime": "8:50am",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 10
+  },
+  {
+    "courseCode": "CMSC132",
+    "courseName": "Object-Oriented Programming II",
+    "department": "CMSC",
+    "credits": 4,
+    "gradingMethod": "Regular",
+    "description": "Introduction to use of computers to solve problems using software engineering principles. Design, build, test, and debug medium -size software systems and learn to use relevant tools. Use object-oriented methods to create effective and efficient problem solutions. Use and implement application programming interfaces (APIs). Programming done in Java.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 24,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 24,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0103",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 26,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0104",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0105",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0106",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0107",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 25,
+        "openSeats": 22,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0318"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0202",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 25,
+        "openSeats": 23,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0318"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0203",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 25,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0318"
+          },
+          {
+            "days": "MW",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0204",
+        "courseCode": "CMSC132",
+        "instructor": "Pedram Sadeghian",
+        "totalSeats": 25,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0318"
+          },
+          {
+            "days": "MW",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC132",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 28,
+        "openSeats": 24,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "ESJ",
+            "room": "0202"
+          },
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0302",
+        "courseCode": "CMSC132",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 28,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "ESJ",
+            "room": "0202"
+          },
+          {
+            "days": "MW",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0303",
+        "courseCode": "CMSC132",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 28,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "ESJ",
+            "room": "0202"
+          },
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0304",
+        "courseCode": "CMSC132",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 28,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "ESJ",
+            "room": "0202"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0305",
+        "courseCode": "CMSC132",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 28,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "ESJ",
+            "room": "0202"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0306",
+        "courseCode": "CMSC132",
+        "instructor": "Nora Burkhauser",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "ESJ",
+            "room": "0202"
+          },
+          {
+            "days": "MW",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0401",
+        "courseCode": "CMSC132",
+        "instructor": "Ilchul Yoon",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0402",
+        "courseCode": "CMSC132",
+        "instructor": "Ilchul Yoon",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0403",
+        "courseCode": "CMSC132",
+        "instructor": "Ilchul Yoon",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0404",
+        "courseCode": "CMSC132",
+        "instructor": "Ilchul Yoon",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0405",
+        "courseCode": "CMSC132",
+        "instructor": "Ilchul Yoon",
+        "totalSeats": 28,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 22
+  },
+  {
+    "courseCode": "CMSC216",
+    "courseName": "Introduction to Computer Systems",
+    "department": "CMSC",
+    "credits": 4,
+    "gradingMethod": "Regular",
+    "description": "Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language. Other concepts covered include UNIX, machine data representation, thread management, optimization, and virtual memory. Programming is done in the Linux Environment.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC132; and minimum grade of C- in MATH141.Restriction:Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission of CMSC - Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "8:00am",
+            "endTime": "8:50am",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0202",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0203",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0204",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0205",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0206",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 24,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0207",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0208",
+        "courseCode": "CMSC216",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0302",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0303",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0304",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0401",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0402",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0403",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0404",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0405",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 29,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0406",
+        "courseCode": "CMSC216",
+        "instructor": "Larry Herman",
+        "totalSeats": 30,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 18
+  },
+  {
+    "courseCode": "CMSC250",
+    "courseName": "Discrete Structures",
+    "department": "CMSC",
+    "credits": 4,
+    "gradingMethod": "Regular",
+    "description": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC131; and minimum grade of C- in MATH141.Restriction:Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "8:30am",
+            "endTime": "9:20am",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 24,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:20am",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0103",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0104",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0105",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:20pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0106",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0107",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "5:00pm",
+            "endTime": "5:50pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0108",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "5:00pm",
+            "endTime": "5:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "8:30am",
+            "endTime": "9:20am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0202",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:20am",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0203",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0204",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0205",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:20pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0206",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0208",
+        "courseCode": "CMSC250",
+        "instructor": "Fawzi Emad",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "TuTh",
+            "startTime": "8:30am",
+            "endTime": "9:20am",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "8:00am",
+            "endTime": "8:50am",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0302",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0303",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0304",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0305",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0306",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "3118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0307",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0308",
+        "courseCode": "CMSC250",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 30,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARM",
+            "room": "0135"
+          },
+          {
+            "days": "MW",
+            "startTime": "4:00pm",
+            "endTime": "4:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 23
+  },
+  {
+    "courseCode": "CMSC250H",
+    "courseName": "Discrete Structures",
+    "department": "CMSC",
+    "credits": 4,
+    "gradingMethod": "Regular",
+    "description": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC131; and minimum grade of C- in MATH141.Restriction:Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC250H",
+        "instructor": "William Gasarch",
+        "totalSeats": 40,
+        "openSeats": 40,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "IRB",
+            "room": "2207"
+          },
+          {
+            "days": "MW",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC298Q",
+    "courseName": "Quantum Steampunk Science-Fiction Workshop",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Steampunk is a science-fiction genre in which futuristic technologies populate Victorian-era settings. Recently, steampunk has come to life in the scientific field of quantum thermodynamics. Thermodynamics, the study of energy, grew out of the Industrial Revolution. Two centuries later, quantum physics is transforming computing and cryptography. Quantum science is now revolutionizing 19th-century thermodynamics in quantum thermodynamics, which features quantum engines, automata, and more. Quantum thermodynamics inspired the growing subgenre of quantum steampunk. In this course, you will read science fiction, write quantum steampunk short stories, receive feedback, and critique classmates' writing. In parallel, you will learn about quantum physics, technologies, and thermodynamics.",
+    "restrictions": "",
+    "crossListedWith": [
+      "ARHU270",
+      "CHEM298Q",
+      "ENME299Q",
+      "PHYS299Q"
+    ],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC298Q",
+        "instructor": "Nicole Yunger Halpern",
+        "totalSeats": 15,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "ATL",
+            "room": "0201"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC298Q",
+        "instructor": "Nicole Yunger Halpern",
+        "totalSeats": 5,
+        "openSeats": 5,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "ATL",
+            "room": "0201"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC320",
+    "courseName": "Introduction to Data Science",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to the data science pipeline, i.e., the end-to-end process of going from unstructured, messy data to knowledge and actionable insights. Provides a broad overview of several topics including statistical data analysis, basic data mining and machine learning algorithms, large-scale data management, cloud computing, and information visualization.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC216 and CMSC250.Restriction:Permission of CMNS-Computer Science department.Credit only granted for:CMSC320, DATA320 or STAT426.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC320",
+        "instructor": "Maksym Morawski",
+        "totalSeats": 240,
+        "openSeats": 234,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "ARM",
+            "room": "0135"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC320",
+        "instructor": "Fardina Alam",
+        "totalSeats": 240,
+        "openSeats": 174,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "0324"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC320",
+        "instructor": "Anna Evtushenko",
+        "totalSeats": 94,
+        "openSeats": 85,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 3
+  },
+  {
+    "courseCode": "CMSC330",
+    "courseName": "Organization of Programming Languages",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed, including dynamic, scripting (e.g., Ruby, Python) functional (e.g., OCaml, Haskell, Scheme), and memory safe systems programming (e.g., Rust). Explores language features such as formal syntax, scoping and binding of variables, higher-order programming, typing, and type polymorphism. Introduces finite automata, context free grammar, parsing, lambda calculus, and basics of security attacks and software security.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC250 and CMSC216.Restriction:Must be in a major within the CMNS-Computer Science department; or must be in the Computer Science Minor program; or must be in Engineering: Computer program; and Permission of CMSC - Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 34,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0202",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 24,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0203",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0204",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 31,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0205",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0206",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0207",
+        "courseCode": "CMSC330",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 36,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 35,
+        "openSeats": 31,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "F",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0302",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 35,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "F",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0303",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 35,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "F",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0304",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 35,
+        "openSeats": 31,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1115"
+          },
+          {
+            "days": "F",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0401",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 36,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0402",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 36,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0403",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 36,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0404",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0405",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 36,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0406",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 36,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0407",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 35,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "3:00pm",
+            "endTime": "3:50pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0408",
+        "courseCode": "CMSC330",
+        "instructor": "Cliff Bakalian",
+        "totalSeats": 36,
+        "openSeats": 36,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0324"
+          },
+          {
+            "days": "F",
+            "startTime": "1:00pm",
+            "endTime": "1:50pm",
+            "building": "CSI",
+            "room": "2118"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 19
+  },
+  {
+    "courseCode": "CMSC335",
+    "courseName": "Web Application Development with JavaScript",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Provides an introduction to modern ways of developing Web Applications/Services using JavaScript for both front-end and back-end. The course covers topics on fundamental JavaScript language constructs, server-side JavaScript, back-end data persistence, and client-side JavaScript to build Web Applications that interact with Web services and back-end databases.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC216 and CMSC250.Restriction:Permission of CMNS-Computer Science Department.Credit only granted for:CMSC389N or CMSC335.Formerly:CMSC389N.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC335",
+        "instructor": "Nelson Padua-Perez",
+        "totalSeats": 235,
+        "openSeats": 222,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "8:00am",
+            "endTime": "9:15am",
+            "building": "IRB",
+            "room": "0324"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC335",
+        "instructor": "Nelson Padua-Perez",
+        "totalSeats": 235,
+        "openSeats": 183,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "IRB",
+            "room": "0324"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC351",
+    "courseName": "Algorithms",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "A systematic study of the complexity of some elementary algorithms related to sorting, graphs and trees, and combinatorics. Algorithms are analyzed using mathematical techniques to solve recurrences and summations.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC250 and CMSC216.Restriction:Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission from the CMSC - Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC351",
+        "instructor": "Ting Jiang",
+        "totalSeats": 200,
+        "openSeats": 186,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "IRB",
+            "room": "0324"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC351",
+        "instructor": "Ting Jiang",
+        "totalSeats": 200,
+        "openSeats": 156,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "IRB",
+            "room": "0324"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC351",
+        "instructor": "Clyde Kruskal",
+        "totalSeats": 150,
+        "openSeats": 149,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "HJP",
+            "room": "0226"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0401",
+        "courseCode": "CMSC351",
+        "instructor": "Clyde Kruskal",
+        "totalSeats": 150,
+        "openSeats": 150,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "HJP",
+            "room": "0226"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 4
+  },
+  {
+    "courseCode": "CMSC396H",
+    "courseName": "Computer Science Honors Seminar",
+    "department": "CMSC",
+    "credits": 1,
+    "gradingMethod": "Regular",
+    "description": "Overview of computer science research activities, techniques, and tools. Diverse research areas will be covered, including systems, networks, artificial intelligence, human-computer interaction, software engineering, graphics, vision, and theory.",
+    "restrictions": "Prerequisite:Must have admission into Computer Science Departmental Honors Program.Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC396H",
+        "instructor": "Zhicheng Liu",
+        "totalSeats": 50,
+        "openSeats": 47,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "W",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC401",
+    "courseName": "Algorithms for Geospatial Computing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to fundamental geospatial objects and geometric algorithms for spatio-temporal data processing and analysis. Point data representation and analysis: spatial data models and data structures, algorithms for spatial queries, point clustering algorithms.  Surface and scalar field modeling, such as terrains: raster and triangle-based models (TINs), algorithms for building and querying TINs. Algorithms for natural and urban terrain analysis: morphology computation and visibility analysis. Applications to processing and analysis of  LiDAR (Light Detection And Ranging) data in the context of terrain reconstruction, urban modeling, forest management and bathymetry reconstruction for coastal data management. Road network computation and analysis: algorithms for route computation in road networks, and for road network reconstruction from GPS and satellite data.",
+    "restrictions": "",
+    "crossListedWith": [
+      "GEOG470"
+    ],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC401",
+        "instructor": "Leila De Floriani",
+        "totalSeats": 30,
+        "openSeats": 18,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ESJ",
+            "room": "2309"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC411",
+    "courseName": "Computer Systems Architecture",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Input/output processors and techniques. Intra-system communication, buses, caches. Addressing and memory hierarchies. Microprogramming, parallelism, and pipelining.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.Restriction:Permission of CMNS-Computer Science department.Credit only granted for:ENEE446 or CMSC411.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC411",
+        "instructor": "Bahar Asgari",
+        "totalSeats": 80,
+        "openSeats": 0,
+        "waitlist": 17,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC411",
+        "instructor": "Ilchul Yoon",
+        "totalSeats": 85,
+        "openSeats": 78,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC412",
+    "courseName": "Operating Systems",
+    "department": "CMSC",
+    "credits": 4,
+    "gradingMethod": "Regular",
+    "description": "A hands-on introduction to operating systems, including topics in: multiprogramming, communication and synchronization, memory management, IO subsystems, and resource scheduling polices. The laboratory component consists of constructing a small kernel, including functions for device IO, multi-tasking, and memory management.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351; and 1 course with a minimum grade of C- from (CMSC414, CMSC417, CMSC420, CMSC430, CMSC433, CMSC435, ENEE440, ENEE457).Restriction:Permission of CMNS-Computer Science department; or must be in one of the following programs (Computer Science (Master's); Computer Science (Doctoral)).Credit only granted for:CMSC412 or ENEE447.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC412",
+        "instructor": "Peter Keleher",
+        "totalSeats": 26,
+        "openSeats": 5,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2107"
+          },
+          {
+            "days": "MW",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC412",
+        "instructor": "Peter Keleher",
+        "totalSeats": 26,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2107"
+          },
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC414",
+    "courseName": "Computer and Network Security",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to the topic of security in the context of computer systems and networks. Identify, analyze, and solve network-related security problems in computer systems. Fundamentals of number theory, authentication, and encryption technologies, as well as the practical problems that have to be solved in order to make those technologies workable in a networked environment, particularly in the wide-area Internet environment.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.Restriction:Permission of CMNS-Computer Science department.Credit only granted for:CMSC414, ENEE459C, or ENEE457.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC414",
+        "instructor": "Yizheng Chen",
+        "totalSeats": 95,
+        "openSeats": 87,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC414",
+        "instructor": "Gabriel Kaptchuk",
+        "totalSeats": 84,
+        "openSeats": 32,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC414",
+        "instructor": "Michael Marsh",
+        "totalSeats": 150,
+        "openSeats": 0,
+        "waitlist": 23,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ARC",
+            "room": "0204"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 3
+  },
+  {
+    "courseCode": "CMSC416",
+    "courseName": "Introduction to Parallel Computing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduction to parallel computing. Topics include programming for shared memory and distributed memory parallel architectures, and fundamental issues in design, development, and performance analysis of parallel programs.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351; or permission of instructor.Restriction:Permission of CMNS-Computer Science department.Jointly offered with:CMSC616.Credit only granted for:CMSC416, CMSC498X, CMSC616, or CMSC818X.Formerly:CMSC498X.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC416",
+        "instructor": "Christopher Kauffman",
+        "totalSeats": 140,
+        "openSeats": 0,
+        "waitlist": 16,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "ESJ",
+            "room": "2208"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC417",
+    "courseName": "Computer Networks",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Computer networks and architectures. The OSI model including discussion and examples of various network layers. A general introduction to existing network protocols. Communication protocol specification, analysis, and testing.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC417",
+        "instructor": "Nirupam Roy",
+        "totalSeats": 83,
+        "openSeats": 0,
+        "waitlist": 10,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC420",
+    "courseName": "Advanced Data Structures",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Description, properties, and storage allocation functions of data structures including balanced binary trees, B-Trees, hash tables, skiplists, tries, KD-Trees and Quadtrees. Algorithms for manipulating structures. Applications from areas such as String Processing, Computer Graphics, Information Retrieval, Computer Networks, Computer Vision, and Operating Systems.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC420",
+        "instructor": "Justin Wyss-Gallifent",
+        "totalSeats": 140,
+        "openSeats": 110,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "9:00am",
+            "endTime": "9:50am",
+            "building": "CSI",
+            "room": "1115"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC420",
+        "instructor": "Justin Wyss-Gallifent",
+        "totalSeats": 140,
+        "openSeats": 57,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "CSI",
+            "room": "1115"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC420",
+        "instructor": "Anna Evtushenko",
+        "totalSeats": 140,
+        "openSeats": 131,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "1115"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 3
+  },
+  {
+    "courseCode": "CMSC421",
+    "courseName": "Introduction to Artificial Intelligence",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduces a range of ideas and methods in AI, varying semester to semester but chosen largely from: automated heuristic search, planning, games, knowledge representation, logical and statistical inference, learning, natural language processing, vision, robotics, cognitive modeling, and intelligent agents. Programming projects will help students obtain a hands-on feel for various topics.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC421",
+        "instructor": "William Regli",
+        "totalSeats": 140,
+        "openSeats": 60,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "EGR",
+            "room": "1202"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC421",
+        "instructor": "Sujeong Kim",
+        "totalSeats": 140,
+        "openSeats": 99,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "ESJ",
+            "room": "2204"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC422",
+    "courseName": "Introduction to Machine Learning",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Machine Learning studies representations and algorithms that allow machines to improve their performance on a task from experience. This is a broad overview of existing methods for machine learning and an introduction to adaptive systems in general. Emphasis is given to practical aspects of machine learning and data mining.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC422",
+        "instructor": "Mohammad Nayeem Teli",
+        "totalSeats": 140,
+        "openSeats": 81,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "ESJ",
+            "room": "2204"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC422",
+        "instructor": "Mohammad Nayeem Teli",
+        "totalSeats": 145,
+        "openSeats": 23,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ESJ",
+            "room": "2204"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC424",
+    "courseName": "Database Design",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Students are introduced to database systems and motivates the database approach as a mechanism for modeling the real world. An in-depth coverage of the relational model, logical database design, query languages, and other database concepts including query optimization, concurrency control; transaction management, and log based crash recovery. Distributed and Web database architectures are also discussed.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC424",
+        "instructor": "Herve Franceschi",
+        "totalSeats": 140,
+        "openSeats": 0,
+        "waitlist": 18,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "LEF",
+            "room": "2205"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC424",
+        "instructor": "Amol Deshpande",
+        "totalSeats": 80,
+        "openSeats": 32,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC425",
+    "courseName": "Game Programming",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to the principles and practice of computer game programming and design. This includes an introduction to game hardware and systems, the principles of game design, object and terrain modeling, game physics, artificial intelligence for games, networking for games, rendering and animation, and aural rendering. Course topics are reinforced through the design and implementation of a working computer game.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351.Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC425",
+        "instructor": "Stevens Miller",
+        "totalSeats": 90,
+        "openSeats": 65,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC426",
+    "courseName": "Computer Vision",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to basic concepts and techniques in computervision. This includes low-level operations such as image filtering and edge detection, 3D reconstruction of scenes using stereo and structure from motion, and object detection, recognition and classification.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351 and 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290); or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program; or permission of the instructor.Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC426",
+        "instructor": "Jia-Bin Huang",
+        "totalSeats": 140,
+        "openSeats": 62,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "1115"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC427",
+    "courseName": "Computer Graphics",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to 3D computer graphics, focusing on the underlying building blocks and algorithms for applications such as 3D computer games, and augmented and virtual reality (AR/VR). Covers the basics of 3D image generation and 3D modeling, with an emphasis on interactive applications. Discusses the representation of 3D geometry, 3D transformations, projections, rasterization, basics of color spaces, texturing and lighting models, as well as programming of modern Graphics Processing Units (GPUs). Includes programming projects where students build their own 3D rendering engine step-by-step.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351; 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290).Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC427",
+        "instructor": "Roger Eastman",
+        "totalSeats": 88,
+        "openSeats": 48,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC430",
+    "courseName": "Introduction to Compilers",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Topics include lexical analysis, parsing, intermediate representations, program analysis, optimization, and code generation.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC430",
+        "instructor": "Milijana Surbatovich",
+        "totalSeats": 95,
+        "openSeats": 41,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC430",
+        "instructor": "Anwar Mamat",
+        "totalSeats": 140,
+        "openSeats": 119,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "CSI",
+            "room": "1115"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC433",
+    "courseName": "Programming Language Technologies and Paradigms",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Programming language technologies (e.g., object-oriented programming), their implementations and use in software design and implementation.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC433",
+        "instructor": "Leonidas Lampropoulos",
+        "totalSeats": 140,
+        "openSeats": 42,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "1115"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC434",
+    "courseName": "Introduction to Human-Computer Interaction",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Assess usability by quantitative and qualitative methods. Conduct task analyses, usability tests, expert reviews, and continuing assessments of working products by interviews, surveys, and logging. Apply design processes and guidelines to develop professional quality user interfaces. Build low-fidelity paper mockups, and a high-fidelity prototype using contemporary tools such as graphic editors and a graphical programming environment (eg: Visual Basic, Java).",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC434",
+        "instructor": "Evan Golub",
+        "totalSeats": 52,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC434",
+        "instructor": "Evan Golub",
+        "totalSeats": 52,
+        "openSeats": 29,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC434",
+        "instructor": "Evan Golub",
+        "totalSeats": 52,
+        "openSeats": 41,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0401",
+        "courseCode": "CMSC434",
+        "instructor": "Jun Nishida",
+        "totalSeats": 52,
+        "openSeats": 0,
+        "waitlist": 8,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 4
+  },
+  {
+    "courseCode": "CMSC435",
+    "courseName": "Software Engineering",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "State-of-the-art techniques in software design and development. Laboratory experience in applying the techniques covered. Structured design, structured programming, top-down design and development, segmentation and modularization techniques, iterative enhancement, design and code inspection techniques, correctness, and chief-programmer teams. The development of a large software project.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC435",
+        "instructor": "James Purtilo",
+        "totalSeats": 46,
+        "openSeats": 0,
+        "waitlist": 21,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC436",
+    "courseName": "Programming Handheld Systems",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Fundamental principles and concepts that underlie the programming of handheld systems, such as mobile phones, personal digital assistants, and tablet computers. Particular emphasis will be placed on concepts such as limited display size, power, memory and CPU speed; and new input modalities, where handheld systems differ substantially from non-handheld systems, and thus require special programming tools and approaches. Students will apply these concepts and principles in the context of an existing handset programming platform.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC436",
+        "instructor": "Michael Marsh",
+        "totalSeats": 150,
+        "openSeats": 56,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "ARC",
+            "room": "0204"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC436",
+        "instructor": "Herve Franceschi",
+        "totalSeats": 150,
+        "openSeats": 112,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "LEF",
+            "room": "2205"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC437",
+    "courseName": "Introduction to Quantum Software Laboratory",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introductory Programming/Software laboratory for quantum computing. Understand the existing programming tools for quantum computers and the characteristics of quantum hardware. Develop quantum application prototypes and tools to characterize and mitigate the limitations of quantum hardware.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC457 or PHYS467; and familiarity with basic programming, languages (e.g., Python).Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC437",
+        "instructor": "Xiaodi Wu",
+        "totalSeats": 20,
+        "openSeats": 13,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "1116"
+          },
+          {
+            "days": "F",
+            "startTime": "3:00pm",
+            "endTime": "4:40pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC451",
+    "courseName": "Design and Analysis of Computer Algorithms",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Fundamental techniques for designing efficient computer algorithms, proving their correctness, and analyzing their complexity. General topics include graph algorithms, basic algorithm design paradigms (such as greedy algorithms, divide-and-conquer, and dynamic programming), network flows, NP-completeness, and other selected topics in algorithms.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC451",
+        "instructor": "Laxman Dhulipala",
+        "totalSeats": 84,
+        "openSeats": 40,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC451",
+        "instructor": "Laxman Dhulipala",
+        "totalSeats": 100,
+        "openSeats": 13,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC452",
+    "courseName": "Elementary Theory of Computation",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Techniques are developed to determine the difficulty of a problem relative to a model of computation. Topics include Finite Automata, P, NP, decidability, undecidability, and communication complexity.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC452",
+        "instructor": "TBA",
+        "totalSeats": 90,
+        "openSeats": 79,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC456",
+    "courseName": "Cryptography",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "The theory, application, and implementation of mathematical techniques used to secure modern communications. Topics include symmetric and public-key encryption, message integrity, hash functions, block-cipher design and analysis, number theory, and digital signatures.",
+    "restrictions": "",
+    "crossListedWith": [
+      "MATH456",
+      "ENEE456"
+    ],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC456",
+        "instructor": "Todd Rowland",
+        "totalSeats": 35,
+        "openSeats": 0,
+        "waitlist": 6,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "PHY",
+            "room": "2124"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC456",
+        "instructor": "Gorjan Alagic",
+        "totalSeats": 60,
+        "openSeats": 17,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC456",
+        "instructor": "Dana Dachman-Soled",
+        "totalSeats": 70,
+        "openSeats": 58,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "PLS",
+            "room": "1130"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 3
+  },
+  {
+    "courseCode": "CMSC457",
+    "courseName": "Introduction to Quantum Computing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to the concept of a quantum computer, including algorithms that outperform classical computation and methods for performing quantum computation reliably in the presence of noise. As this is a multidisciplinary subject, the course will cover basic concepts in theoretical computer science and physics in addition to introducing core quantum computing topics. No previous background in quantum mechanics is required.",
+    "restrictions": "Prerequisite:1 course with a minimum grade of C- from (ENEE290, MATH240, MATH341, MATH461, MATH243); and 1 course with a minimum grade of C- from (CMSC351, PHYS313).Restriction:Permission of CMNS-Computer Science department.Cross-listed with:PHYS457.Credit only granted for:CMSC457 or PHYS457.Additional information:Only Physics students may use MATH243 to satisfy the Linear Algebra prerequisite for CMSC/PHYS457.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC457",
+        "instructor": "Xiaodi Wu",
+        "totalSeats": 80,
+        "openSeats": 37,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "5:00pm",
+            "endTime": "6:15pm",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC460",
+    "courseName": "Computational Methods",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences.",
+    "restrictions": "",
+    "crossListedWith": [
+      "AMSC460"
+    ],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC460",
+        "instructor": "Stefan Doboszczak",
+        "totalSeats": 30,
+        "openSeats": 0,
+        "waitlist": 8,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "MTH",
+            "room": "0106"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC460",
+        "instructor": "Youran Sun",
+        "totalSeats": 30,
+        "openSeats": 22,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "12:00pm",
+            "endTime": "12:50pm",
+            "building": "MTH",
+            "room": "0106"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0301",
+        "courseCode": "CMSC460",
+        "instructor": "Tobias von Petersdorff",
+        "totalSeats": 30,
+        "openSeats": 8,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "MTH",
+            "room": "B0427"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0401",
+        "courseCode": "CMSC460",
+        "instructor": "Kayo Ide",
+        "totalSeats": 30,
+        "openSeats": 0,
+        "waitlist": 2,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "MTH",
+            "room": "B0421"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 4
+  },
+  {
+    "courseCode": "CMSC466",
+    "courseName": "Introduction to Numerical Analysis I",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Floating point computations, direct methods for linear systems, interpolation, solution of nonlinear equations.",
+    "restrictions": "",
+    "crossListedWith": [
+      "AMSC466"
+    ],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC466",
+        "instructor": "Tobias von Petersdorff",
+        "totalSeats": 30,
+        "openSeats": 18,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "MTH",
+            "room": "0307"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC470",
+    "courseName": "Introduction to Natural Language Processing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduction to fundamental techniques for automatically processing and generating natural language with computers. Machine learning techniques, models, and algorithms that enable computers to deal with the ambiguity and implicit structure of natural language. Application of these techniques in a series of assignments designed to address a core application such as question answering or machine translation.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC320, CMSC330, and CMSC351; and 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290).Restriction:Permission of CMNS-Computer Science department.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC470",
+        "instructor": "Rachel Rudinger",
+        "totalSeats": 84,
+        "openSeats": 33,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0201",
+        "courseCode": "CMSC470",
+        "instructor": "Sarah Wiegreffe",
+        "totalSeats": 50,
+        "openSeats": 30,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "2117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC471",
+    "courseName": "Introduction to Data Visualization",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Datasets are becoming increasingly large and complex, requiring intuitive ways to explore and interpret them quickly and efficiently. In this case, a picture is worth a thousand words: visualizations enable us to transform data into images that are easier to understand and reason about, compared to raw numbers and raw text. Visualizations are critical tools in externalizing and organizing our knowledge and insights, whether to explore collected datasets to improve our understanding of the physical world, to assess and debug analysis/experimental workflows, or to present new and interesting results to diverse audiences. In this course we will study techniques and algorithms for creating effective visualizations based on principles from graphic design, perceptual psychology, and cognitive science. Students will learn how to design and build interactive visualizations for the web, using the D3.js (Data-Driven Documents) framework.",
+    "restrictions": "Prerequisite:Minimum grade of C- in CMSC330 and CMSC351; and permission of CMNS-Computer Science Department.Restriction:Permission of the CMNS-Computer Science Department.Credit only granted for:CMSC471 or CMSC498O.Formerly:CMSC498O.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC471",
+        "instructor": "Fumeng Yang",
+        "totalSeats": 84,
+        "openSeats": 0,
+        "waitlist": 21,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC472",
+    "courseName": "Introduction to Deep Learning",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to deep learning, a machine learning technique, as well as its applications to a variety of domains. Provides a broad overview of deep learning concepts including neural networks, convolutional neural networks, recurrent neural networks, generative models, and deep reinforcement learning, and an intuitive introduction to basics of machine learning such as simple models, learning paradigms, optimization, overfitting, importance of data, and training caveats.",
+    "restrictions": "Prerequisite:Minimum grade of C- or higher in CMSC330 and CMSC351; and 1 course with a minimum grade of C- or higher from (MATH240, MATH341, MATH461, ENEE290).Restriction:Permission of the CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's) program.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC472",
+        "instructor": "Abhinav Shrivastava",
+        "totalSeats": 140,
+        "openSeats": 0,
+        "waitlist": 31,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "SHM",
+            "room": "2102"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC475",
+    "courseName": "Combinatorics and Graph Theory",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "General enumeration methods, difference equations, generating functions. Elements of graph theory, matrix representations of graphs, applications of graph theory to transport networks, matching theory and graphical algorithms.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC475",
+        "instructor": "Wiseley Wong",
+        "totalSeats": 35,
+        "openSeats": 1,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "PHY",
+            "room": "2214"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC477",
+    "courseName": "Robotics Perception and Planning",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "A hands-on introduction to perception and planning for robotics, including rigid body transformations and rotations, dynamics and control of mobile robots/drones, graph based and sampling based planning algorithms, Bayseian and Kalman filtering, camera models and calibration, projective geometry, visual features, optical flow, pose estimation, RANSAC and Hough transform, structure from motion, visual odometry, machine learning basics, visual recognition and learning.",
+    "restrictions": "Prerequisite:1 course from (MATH240, MATH341, MATH461, ENEE290); and (ENEE467 or CMSC420).Restriction:Must be in the Robotics and Autonomous Systems minor; and permission of Computer Science department.Additional information:Students in the Robotics and Autonomous Systems minor should take ENEE467 as a prerequisite; Computer Science students not in the minor should take CMSC420.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC477",
+        "instructor": "Troi Williams",
+        "totalSeats": 30,
+        "openSeats": 2,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "3117"
+          },
+          {
+            "days": "M",
+            "startTime": "2:00pm",
+            "endTime": "4:50pm",
+            "building": "EAF",
+            "room": "3119"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "0102",
+        "courseCode": "CMSC477",
+        "instructor": "Troi Williams",
+        "totalSeats": 30,
+        "openSeats": 14,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "2:50pm",
+            "building": "CSI",
+            "room": "3117"
+          },
+          {
+            "days": "W",
+            "startTime": "2:30pm",
+            "endTime": "5:20pm",
+            "building": "EAF",
+            "room": "3119"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC498C",
+    "courseName": "Selected Topics in Computer Science; Blockchains, Applied Cryptography, and Cryptocurrency",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498C",
+        "instructor": "Ian Miers",
+        "totalSeats": 40,
+        "openSeats": 28,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC498D",
+    "courseName": "Selected Topics in Computer Science; Introduction to Computational Photography",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498D",
+        "instructor": "Christopher Metzler",
+        "totalSeats": 40,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC498E",
+    "courseName": "Selected Topics in Computer Science; Robotics",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498E",
+        "instructor": "Dinesh Manocha",
+        "totalSeats": 40,
+        "openSeats": 40,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC498F",
+    "courseName": "Selected Topics in Computer Science; Advances in XR",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498F",
+        "instructor": "Ming Lin",
+        "totalSeats": 15,
+        "openSeats": 9,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC498G",
+    "courseName": "Selected Topics in Computer Science; Introduction to Privacy",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498G",
+        "instructor": "Michelle Mazurek",
+        "totalSeats": 40,
+        "openSeats": 38,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC498W",
+    "courseName": "Selected Topics in Computer Science; Economics and Computation",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498W",
+        "instructor": "Han Shao",
+        "totalSeats": 40,
+        "openSeats": 33,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC498Y",
+    "courseName": "Selected Topics in Computer Science; Statistical Inference and Machine Learning Methods for Genomics Data",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC498Y",
+        "instructor": "Erin Molloy",
+        "totalSeats": 60,
+        "openSeats": 48,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC624",
+    "courseName": "Database System Architecture and Implementation",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "In-depth overview of database architectures--both the mainstream traditional architecture and more modern architectures that are especially prevalent in cloud implementations. Topics include different architectural choices for different application spaces and the tradeoffs inherent in choices and building different parts of database systems.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC624",
+        "instructor": "Daniel Abadi",
+        "totalSeats": 20,
+        "openSeats": 17,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC624",
+        "instructor": "Daniel Abadi",
+        "totalSeats": 20,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC651",
+    "courseName": "Analysis of Algorithms",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Efficiency of algorithms, orders of magnitude, recurrence relations, lower-bound techniques, time and space resources, NP-complete problems, polynomial hierarchies, and approximation algorithms. Sorting, searching, set manipulation, graph theory, matrix multiplication, fast Fourier transform, pattern matching, and integer and polynomial arithmetic.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC651",
+        "instructor": "Aravind Srinivasan",
+        "totalSeats": 50,
+        "openSeats": 43,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "JMZ",
+            "room": "0220"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC651",
+        "instructor": "Aravind Srinivasan",
+        "totalSeats": 20,
+        "openSeats": 10,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "JMZ",
+            "room": "0220"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC656",
+    "courseName": "Introduction to Cryptography",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduction to modern cryptography. Topics include symmetric-key encryption, hash functions, message-authentication codes, block-cipher design, theoretical foundations, number theory, public-key encryption, and digital signatures.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC656",
+        "instructor": "TBA",
+        "totalSeats": 28,
+        "openSeats": 26,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC656",
+        "instructor": "TBA",
+        "totalSeats": 12,
+        "openSeats": 3,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC661",
+    "courseName": "Scientific Computing II",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Numerical methods for solving ordinary and partial differential equations (elliptic, parabolic, hyperbolic, and dispersive): motivation, analysis, and implementation. Finite difference methods, finite element methods, Fourier and Chebyshev spectral methods, and meshless methods.",
+    "restrictions": "",
+    "crossListedWith": [
+      "AMSC661"
+    ],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC661",
+        "instructor": "Maria Cameron",
+        "totalSeats": 20,
+        "openSeats": 11,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "PHY",
+            "room": "2124"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC661",
+        "instructor": "Maria Cameron",
+        "totalSeats": 10,
+        "openSeats": 10,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MWF",
+            "startTime": "11:00am",
+            "endTime": "11:50am",
+            "building": "PHY",
+            "room": "2124"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC701",
+    "courseName": "Computational Genomics",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "An introduction to the algorithms and heuristics used in the analysis of biological sequences. Includes an introduction to string matching and alignment algorithms, phylogenetic analysis, string reconstruction (genome assembly), and sequence pattern recognition (gene and motif finding). A particular emphasis will be placed on the design of efficient algorithms and on techniques for analyzing the time and space complexity of these algorithms. Computational concepts will be presented in the context of current biological applications. No prior knowledge of biology necessary.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC701",
+        "instructor": "Robert Patro",
+        "totalSeats": 20,
+        "openSeats": 11,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC701",
+        "instructor": "Robert Patro",
+        "totalSeats": 20,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC711",
+    "courseName": "Computer Networks",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Priciples, design, and performance evaluation of computer networks. Network architectures including the ISO model and local area networks (LANs). Communication protocols and network topology.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC711",
+        "instructor": "Samrat Bhattacharjee",
+        "totalSeats": 28,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC711",
+        "instructor": "Samrat Bhattacharjee",
+        "totalSeats": 12,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC714",
+    "courseName": "High Performance Computing Systems",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Slected topics in high-performance systems, including contemporary architectures, interconnection topologies, shared memory and message-passing systems, multi-threaded kernels, latency avoidance and hiding techniques, methods for data and workload partitioning performance profiling, debugging.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC714",
+        "instructor": "Alan Sussman",
+        "totalSeats": 28,
+        "openSeats": 21,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC714",
+        "instructor": "Alan Sussman",
+        "totalSeats": 12,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC725",
+    "courseName": "Geographical Information Systems and Spatial Databases",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Topics in geographic information systems and spatial databases. Integrates related results from databases, cartography, geography, computer graphics, file access methods, computational geometry, image processing, data structures, and programming languages. Topics include: cartographic modeling, principles of cartography, methods from computational geometry, principles of spatial databases, access methods, and spatial data structures. The architecture of some existing spatial databases and geographic information systems will be examined in greater detail.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC725",
+        "instructor": "Hanan Samet",
+        "totalSeats": 20,
+        "openSeats": 19,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC725",
+        "instructor": "Hanan Samet",
+        "totalSeats": 20,
+        "openSeats": 17,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "CSI",
+            "room": "3120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC730",
+    "courseName": "Interactive Technologies in Human-Computer Interaction",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Ubiquitous and mobile computing, wearables, virtual/augmented reality, natural user interfaces, tangible UIs, interactive fabrication.",
+    "restrictions": "Restriction:Must be in the Computer Science Master's or Doctoral program; or permission of instructor.Credit only granted for:CMSC838J or CMSC730.Formerly:CMSC838J.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC730",
+        "instructor": "Huaishu Peng",
+        "totalSeats": 25,
+        "openSeats": 3,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC730",
+        "instructor": "Huaishu Peng",
+        "totalSeats": 15,
+        "openSeats": 3,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC731",
+    "courseName": "Advances in XR",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular, Audit",
+    "description": "AR, VR, and MR, collectively referred to as XR, are becoming ubiquitous for human computer interaction with limitless applications and potential use. This course examines advances on real-time multi-modal XR systems in which the user is 'immersed' in and interacts with a simulated 3D environment. The topics will include display, modeling, 3D graphics, haptics, audio, locomotion, animation, applications, immersion, and presence and how they interact to create convincing virtual environments.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC731",
+        "instructor": "Ming Lin",
+        "totalSeats": 15,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC731",
+        "instructor": "Ming Lin",
+        "totalSeats": 20,
+        "openSeats": 5,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "IRB",
+            "room": "2107"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC733",
+    "courseName": "Computer Processing of Pictorial Information",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Input, output, and storage of pictorial information. Pictures as information sources, efficient encoding, sampling, quantization, approximation. Position-invariant operations on pictures, digital and optical implementations, the pax language, applications to matched and spatial frequency filtering. Picture quality, image enhancement and image restoration. Picture properties and pictorial pattern recognition. Processing of complex pictures; figure extraction, properties of figures. Data structures for pictures description and manipulation; picture languages. Graphics systems for alphanumeric and other symbols, line drawings of two- and three-dimensional objects, cartoons and movies.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC733",
+        "instructor": "John Aloimonos",
+        "totalSeats": 30,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC733",
+        "instructor": "John Aloimonos",
+        "totalSeats": 20,
+        "openSeats": 13,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC734",
+    "courseName": "Information  Visualization",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Information visualization defined in relation to graphics, scientific visualization, databases, data mining, and human-computer interaction. Visualizations for dimensional, temporal, hierarchical and network data. Examines design alternatives, algorithms and data structures, coordinated views, and human factors evaluations of efficacy.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC734",
+        "instructor": "Zhicheng Liu",
+        "totalSeats": 28,
+        "openSeats": 18,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC734",
+        "instructor": "Zhicheng Liu",
+        "totalSeats": 26,
+        "openSeats": 23,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC752",
+    "courseName": "Ramsey Theory and its Applications",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Theorems about when a coloring of a graph (or other objects) has to yield a nice monochromatic object. Applications will be to computer science theory and to mathematics.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC752",
+        "instructor": "William Gasarch",
+        "totalSeats": 35,
+        "openSeats": 34,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC752",
+        "instructor": "William Gasarch",
+        "totalSeats": 12,
+        "openSeats": 6,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC754",
+    "courseName": "Computational Geometry",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Introduction to algorithms and data structures for computational problems in discrete geometry (for points, lines, and polygons) primarily in two and three dimensions. Topics include triangulations and planar subdivisions, geometric search and intersection, convex hulls, Voronoi diagrams, Delaunay triangulations, line arrangements, visibility, and motion planning.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC754",
+        "instructor": "David Mount",
+        "totalSeats": 30,
+        "openSeats": 20,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC754",
+        "instructor": "David Mount",
+        "totalSeats": 20,
+        "openSeats": 15,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "9:30am",
+            "endTime": "10:45am",
+            "building": "CSI",
+            "room": "3117"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC756",
+    "courseName": "Robotics",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Overview on fundamental components of robotic systems, including the sensing and actuation, control and modeling of motion and perception, dynamics and kinematics, motion planning and manipulation of robots.",
+    "restrictions": "Prerequisite:CMSC420, CMSC106, CMSC466, and MATH240; or equivalent.Restriction:Must be in the Computer Science Master's or Doctoral programs.Credit only granted for:CMSC818N or CMSC756.Formerly:CMSC818N.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC756",
+        "instructor": "Dinesh Manocha",
+        "totalSeats": 25,
+        "openSeats": 9,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC756",
+        "instructor": "Dinesh Manocha",
+        "totalSeats": 15,
+        "openSeats": 2,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "0318"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC764",
+    "courseName": "Advanced Numerical Optimization",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "Modern numerical methods for solving unconstrained and constrained nonlinear optimization problems in finite dimensions. Design of computational algorithms and the analysis of their properties.",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC764",
+        "instructor": "Thomas Goldstein",
+        "totalSeats": 57,
+        "openSeats": 25,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ESJ",
+            "room": "1224"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC764",
+        "instructor": "Thomas Goldstein",
+        "totalSeats": 23,
+        "openSeats": 12,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "12:30pm",
+            "endTime": "1:45pm",
+            "building": "ESJ",
+            "room": "1224"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC800",
+    "courseName": "How to Conduct Great Research",
+    "department": "CMSC",
+    "credits": 1,
+    "gradingMethod": "Sat-Fail",
+    "description": "Develop research skills so as to promote high quality and high impact.",
+    "restrictions": "Restriction:Must be in the Computer Science doctoral program.Credit only granted for:CMSC798F or CMSC800.Formerly:CMSC798F.",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC800",
+        "instructor": "Jia-Bin Huang",
+        "totalSeats": 53,
+        "openSeats": 0,
+        "waitlist": 4,
+        "meetingTimes": [
+          {
+            "days": "Tu",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC800",
+        "instructor": "Jia-Bin Huang",
+        "totalSeats": 1,
+        "openSeats": 0,
+        "waitlist": 2,
+        "meetingTimes": [
+          {
+            "days": "Tu",
+            "startTime": "10:00am",
+            "endTime": "10:50am",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC818G",
+    "courseName": "Advanced Topics in Computer Systems; Information-Centric Design of Systems",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC818G",
+        "instructor": "Ashok Agrawala",
+        "totalSeats": 20,
+        "openSeats": 13,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC818G",
+        "instructor": "Ashok Agrawala",
+        "totalSeats": 20,
+        "openSeats": 10,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC818Q",
+    "courseName": "Advanced Topics in Computer Systems; Cloud Networking and Computing",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC818Q",
+        "instructor": "Zaoxing Liu",
+        "totalSeats": 25,
+        "openSeats": 21,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC818Q",
+        "instructor": "Zaoxing Liu",
+        "totalSeats": 15,
+        "openSeats": 2,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "CSI",
+            "room": "1121"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC828C",
+    "courseName": "Advanced Topics in Information Processing; Statistical Pattern Recognition",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC828C",
+        "instructor": "Behtash Babadi",
+        "totalSeats": 43,
+        "openSeats": 27,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "EGR",
+            "room": "1104"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 1
+  },
+  {
+    "courseCode": "CMSC828G",
+    "courseName": "Advanced Topics in Information Processing; Systems for Machine Learning",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular, Audit, Sat-Fail",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC828G",
+        "instructor": "Abhinav Bhatele",
+        "totalSeats": 25,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC828G",
+        "instructor": "Abhinav Bhatele",
+        "totalSeats": 15,
+        "openSeats": 0,
+        "waitlist": 9,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC838E",
+    "courseName": "Advanced Topics in Programming Languages; Compiler Construction",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC838E",
+        "instructor": "David Van Horn",
+        "totalSeats": 23,
+        "openSeats": 19,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC838E",
+        "instructor": "David Van Horn",
+        "totalSeats": 17,
+        "openSeats": 7,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC848G",
+    "courseName": "Selected Topics in Information Processing; Selected Topics in Machine Learning",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC848G",
+        "instructor": "Heng Huang",
+        "totalSeats": 40,
+        "openSeats": 12,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ATL",
+            "room": "1113"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC848G",
+        "instructor": "Heng Huang",
+        "totalSeats": 23,
+        "openSeats": 8,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "ATL",
+            "room": "1113"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC848M",
+    "courseName": "Selected Topics in Information Processing; Multimodal Computer Vision",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC848M",
+        "instructor": "Ruohan Gao",
+        "totalSeats": 30,
+        "openSeats": 0,
+        "waitlist": 11,
+        "meetingTimes": [
+          {
+            "days": "Tu",
+            "startTime": "3:30pm",
+            "endTime": "6:00pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC848M",
+        "instructor": "Ruohan Gao",
+        "totalSeats": 10,
+        "openSeats": 0,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "Tu",
+            "startTime": "3:30pm",
+            "endTime": "6:00pm",
+            "building": "CSI",
+            "room": "2120"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC848Q",
+    "courseName": "Selected Topics in Information Processing; Good AI Answers to Questions: How to Get Them and What Can Go Wrong",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC848Q",
+        "instructor": "Jordan Ying",
+        "totalSeats": 25,
+        "openSeats": 20,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "8:30am",
+            "endTime": "9:40am",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC848Q",
+        "instructor": "Jordan Ying",
+        "totalSeats": 15,
+        "openSeats": 10,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "8:30am",
+            "endTime": "9:40am",
+            "building": "IRB",
+            "room": "1116"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC848T",
+    "courseName": "Selected Topics in Information Processing; Frontiers in Multilingual AI",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC848T",
+        "instructor": "Marine Carpuat",
+        "totalSeats": 25,
+        "openSeats": 18,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC848T",
+        "instructor": "Marine Carpuat",
+        "totalSeats": 15,
+        "openSeats": 12,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "3:30pm",
+            "endTime": "4:45pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC848U",
+    "courseName": "Selected Topics in Information Processing; Modern Computational Speech and Audition",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC848U",
+        "instructor": "Ramani Duraiswami",
+        "totalSeats": 25,
+        "openSeats": 17,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC848U",
+        "instructor": "Ramani Duraiswami",
+        "totalSeats": 15,
+        "openSeats": 12,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "2:00pm",
+            "endTime": "3:15pm",
+            "building": "IRB",
+            "room": "2207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC858G",
+    "courseName": "Advanced Topics in Theory of Computing; Quantum Error Correction and Fault Tolerance",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC858G",
+        "instructor": "Daniel Gottesman",
+        "totalSeats": 25,
+        "openSeats": 23,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC858G",
+        "instructor": "Daniel Gottesman",
+        "totalSeats": 15,
+        "openSeats": 15,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "TuTh",
+            "startTime": "11:00am",
+            "endTime": "12:15pm",
+            "building": "CSI",
+            "room": "1122"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  },
+  {
+    "courseCode": "CMSC858Y",
+    "courseName": "Advanced Topics in Theory of Computing; Quantum Computer Systems",
+    "department": "CMSC",
+    "credits": 3,
+    "gradingMethod": "Regular",
+    "description": "",
+    "restrictions": "",
+    "crossListedWith": [],
+    "semester": "202601",
+    "sections": [
+      {
+        "sectionId": "0101",
+        "courseCode": "CMSC858Y",
+        "instructor": "Runzhou Tao",
+        "totalSeats": 25,
+        "openSeats": 21,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "5:00pm",
+            "endTime": "6:15pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      },
+      {
+        "sectionId": "PJ01",
+        "courseCode": "CMSC858Y",
+        "instructor": "Runzhou Tao",
+        "totalSeats": 15,
+        "openSeats": 12,
+        "waitlist": 0,
+        "meetingTimes": [
+          {
+            "days": "MW",
+            "startTime": "5:00pm",
+            "endTime": "6:15pm",
+            "building": "IRB",
+            "room": "1207"
+          }
+        ],
+        "deliveryMode": "face-to-face"
+      }
+    ],
+    "totalSections": 2
+  }
+]

@@ -49,9 +49,9 @@ UMD_BUILDINGS: Dict[str, Dict[str, Any]] = {
     
     # Mathematics & Sciences
     "MTH": {
-        "fullName": "Mathematics Building",
-        "latitude": 38.9863,
-        "longitude": -76.9420,
+        "fullName": "Mathematics Building (Kirwin Hall)",
+        "latitude": 38.988329,
+        "longitude": -76.939208,
         "departments": ["Mathematics"]
     },
     "PHY": {

@@ -210,6 +210,46 @@ Summary:"""
                 # Truncate to fit metadata limits
                 metadata["reviewSummary"] = courseData["reviewSummary"][:500]
             
+            # Add section-specific fields if available (for schedule sections)
+            if courseData.get("sectionId"):
+                metadata["sectionId"] = courseData.get("sectionId")
+            
+            if courseData.get("instructor"):
+                metadata["instructor"] = courseData.get("instructor")
+            
+            if courseData.get("semester"):
+                metadata["semester"] = courseData.get("semester")
+            
+            if courseData.get("days"):
+                metadata["days"] = courseData.get("days")
+            
+            if courseData.get("startTime"):
+                metadata["startTime"] = courseData.get("startTime")
+            
+            if courseData.get("endTime"):
+                metadata["endTime"] = courseData.get("endTime")
+            
+            if courseData.get("building"):
+                metadata["building"] = courseData.get("building")
+            
+            if courseData.get("room"):
+                metadata["room"] = courseData.get("room")
+            
+            if courseData.get("deliveryMode"):
+                metadata["deliveryMode"] = courseData.get("deliveryMode")
+            
+            if courseData.get("totalSeats") is not None:
+                metadata["totalSeats"] = int(courseData.get("totalSeats"))
+            
+            if courseData.get("openSeats") is not None:
+                metadata["openSeats"] = int(courseData.get("openSeats"))
+            
+            if courseData.get("waitlist") is not None:
+                metadata["waitlist"] = int(courseData.get("waitlist"))
+            
+            if courseData.get("hasOpenSeats") is not None:
+                metadata["hasOpenSeats"] = bool(courseData.get("hasOpenSeats"))
+            
             # Store full reviews as JSON string (optional, for retrieval)
             if courseData.get("reviews"):
                 reviews = courseData["reviews"]

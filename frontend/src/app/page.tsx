@@ -19,13 +19,17 @@ import {
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import SchoolIcon from '@mui/icons-material/School';
 import ChatIcon from '@mui/icons-material/Chat';
+import MapIcon from '@mui/icons-material/Map';
 import ChatInterface from '@/components/ChatInterface';
 import ScheduleView from '@/components/ScheduleView';
+import VenusScheduleView from '@/components/VenusScheduleView';
 import FourYearPlanView from '@/components/FourYearPlanView';
+import ScheduleMapView from '@/components/ScheduleMapView';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState(0);
   const [currentSchedule, setCurrentSchedule] = useState<any>(null);
+  const [currentScheduleIndex, setCurrentScheduleIndex] = useState<number>(0);
   const [currentPlan, setCurrentPlan] = useState<any>(null);
   
   const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -34,12 +38,13 @@ export default function Home() {
   
   const handleScheduleGenerated = (schedule: any) => {
     setCurrentSchedule(schedule);
+    setCurrentScheduleIndex(0); // Reset to first schedule
     setActiveTab(1); // Switch to schedule tab
   };
   
   const handlePlanGenerated = (plan: any) => {
     setCurrentPlan(plan);
-    setActiveTab(2); // Switch to plan tab
+    setActiveTab(3); // Switch to plan tab
   };
   
   return (
@@ -77,6 +82,7 @@ export default function Home() {
               >
                 <Tab icon={<ChatIcon />} label="Assistant" />
                 <Tab icon={<CalendarTodayIcon />} label="Schedule" />
+                <Tab icon={<MapIcon />} label="Route Map" />
                 <Tab icon={<SchoolIcon />} label="4-Year Plan" />
               </Tabs>
               
@@ -110,10 +116,23 @@ export default function Home() {
                 )}
                 
                 {activeTab === 1 && (
-                  <ScheduleView sections={currentSchedule?.sections || []} />
+                  <VenusScheduleView 
+                    schedules={currentSchedule?.schedules || []} 
+                    semester={currentSchedule?.semester}
+                    year={currentSchedule?.year}
+                    onScheduleIndexChange={setCurrentScheduleIndex}
+                  />
                 )}
                 
                 {activeTab === 2 && (
+                  <ScheduleMapView
+                    schedule={currentSchedule?.schedules?.[currentScheduleIndex]}
+                    scheduleIndex={currentScheduleIndex}
+                    totalSchedules={currentSchedule?.schedules?.length || 0}
+                  />
+                )}
+                
+                {activeTab === 3 && (
                   <FourYearPlanView plan={currentPlan} />
                 )}
               </Box>

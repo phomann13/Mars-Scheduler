@@ -111,27 +111,43 @@ class ScheduleDataIndexer:
         """Index a single course section."""
         courseCode = course.get('courseCode', 'UNKNOWN')
         sectionId = section.get('sectionId', '0000')
+        semester = course.get('semester', '')
         
         # Create rich text for section
         sectionText = self._createSectionText(section, course)
         
-        # Create metadata for section
-        metadata = {
-            "type": "course_section",
-            "courseCode": courseCode,
+        # Format section as a course document for indexing
+        # This allows us to use the existing indexCourse method
+        sectionCourseData = {
+            "courseCode": f"{courseCode}-{sectionId}",
+            "courseName": f"{course.get('courseName', 'Unknown')} - Section {sectionId}",
+            "department": course.get('department', ''),
+            "credits": course.get('credits', 3),
+            "description": sectionText,  # Rich text with all section details
+            "text": sectionText,
+            "level": courseCode[4:7] if len(courseCode) > 4 else "100",
+            # Section-specific metadata
             "sectionId": sectionId,
             "instructor": section.get('instructor', 'TBA'),
-            "semester": course.get('semester', ''),
+            "semester": semester,
             "deliveryMode": section.get('deliveryMode', 'face-to-face'),
+            "totalSeats": section.get('totalSeats', 0),
+            "openSeats": section.get('openSeats', 0),
+            "waitlist": section.get('waitlist', 0),
             "hasOpenSeats": section.get('openSeats', 0) > 0,
-            "department": course.get('department', '')
+            "metadata": {
+                "type": "course_section",
+                "courseCode": courseCode,
+                "sectionId": sectionId,
+                "semester": semester
+            }
         }
         
-        # Add meeting times info to metadata
+        # Add meeting times info
         meetingTimes = section.get('meetingTimes', [])
         if meetingTimes:
             firstMeeting = meetingTimes[0]
-            metadata.update({
+            sectionCourseData.update({
                 "days": firstMeeting.get('days', ''),
                 "startTime": firstMeeting.get('startTime', ''),
                 "endTime": firstMeeting.get('endTime', ''),
@@ -139,12 +155,8 @@ class ScheduleDataIndexer:
                 "room": firstMeeting.get('room', '')
             })
         
-        # Index the section
-        await vectorStoreService.indexDocument(
-            documentId=f"{courseCode}-{sectionId}-{course.get('semester', '')}",
-            text=sectionText,
-            metadata=metadata
-        )
+        # Index the section using indexCourse
+        await vectorStoreService.indexCourse(sectionCourseData)
     
     def _createCourseText(self, course: Dict[str, Any]) -> str:
         """Create rich text representation of course for embedding."""
