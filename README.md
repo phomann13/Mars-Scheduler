@@ -1,6 +1,9 @@
 # UMD AI Scheduling Assistant (Mars Scheduler)
-
 An AI-powered web application that helps University of Maryland students plan their academic careers intelligently using GPT-4 and RAG (Retrieval-Augmented Generation).
+
+# **NOTE**
+This repository documents a development exercise in which the project was built end-to-end using agentic AI tooling. The goal was to evaluate how well modern AI systems can interpret requirements, generate production-grade code, and maintain coherence across multiple components without manual intervention. While the project is experimental, it reflects a disciplined approach to understanding the practical limits and strengths of AI-assisted software engineering.
+
 
 ## Features
 
